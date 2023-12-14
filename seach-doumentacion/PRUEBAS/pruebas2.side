@@ -1,0 +1,242 @@
+{
+  "id": "0f98f761-92f6-4417-b398-eb98c8be0f45",
+  "version": "2.0",
+  "name": "pruebas2",
+  "url": "http://localhost:3000/productos",
+  "tests": [{
+    "id": "55c955f4-de1b-4dd6-b8e3-dd28ad64c0c8",
+    "name": "Untitled",
+    "commands": [{
+      "id": "4dce86e3-8822-4428-9340-5e280d792230",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/productos",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc50670c-191c-4667-a687-cbd3e212476f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ede2ee8-6ae9-40d1-87db-560a1103e91a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-gray-300",
+      "targets": [
+        ["css=.border-gray-300", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar nuevo producto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09c1c42f-d67e-4603-bd1f-bb91c0b21d4e",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_producto",
+      "targets": [
+        ["id=id_producto", "id"],
+        ["css=#id_producto", "css:finder"],
+        ["xpath=//input[@id='id_producto']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7d6af84-39a9-45d4-b24a-e055b4ae2e70",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_producto",
+      "targets": [
+        ["id=id_producto", "id"],
+        ["css=#id_producto", "css:finder"],
+        ["xpath=//input[@id='id_producto']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "b0fd291b-f105-45d9-9f2b-72e0e92f196d",
+      "comment": "",
+      "command": "click",
+      "target": "id=nom_producto",
+      "targets": [
+        ["id=nom_producto", "id"],
+        ["css=#nom_producto", "css:finder"],
+        ["xpath=//input[@id='nom_producto']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec41ecd4-b305-4555-adae-8ec8e353d4c7",
+      "comment": "",
+      "command": "type",
+      "target": "id=nom_producto",
+      "targets": [
+        ["id=nom_producto", "id"],
+        ["css=#nom_producto", "css:finder"],
+        ["xpath=//input[@id='nom_producto']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "jabon liquido"
+    }, {
+      "id": "af1b667b-ded9-4adc-8b49-ae3eec7648cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=num_producto",
+      "targets": [
+        ["id=num_producto", "id"],
+        ["css=#num_producto", "css:finder"],
+        ["xpath=//input[@id='num_producto']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac0f1a47-bbce-4d9d-ac63-cfc7e8f49193",
+      "comment": "",
+      "command": "type",
+      "target": "id=num_producto",
+      "targets": [
+        ["id=num_producto", "id"],
+        ["css=#num_producto", "css:finder"],
+        ["xpath=//input[@id='num_producto']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "20"
+    }, {
+      "id": "6b0dc078-bdfb-4c9b-b2a6-c0ae9751a15b",
+      "comment": "",
+      "command": "click",
+      "target": "id=valor_unitario",
+      "targets": [
+        ["id=valor_unitario", "id"],
+        ["css=#valor_unitario", "css:finder"],
+        ["xpath=//input[@id='valor_unitario']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6332284-4d2e-41b9-be96-367569676551",
+      "comment": "",
+      "command": "type",
+      "target": "id=valor_unitario",
+      "targets": [
+        ["id=valor_unitario", "id"],
+        ["css=#valor_unitario", "css:finder"],
+        ["xpath=//input[@id='valor_unitario']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "10000"
+    }, {
+      "id": "309927a3-43f4-44cf-bc34-bdcfec0fa62b",
+      "comment": "",
+      "command": "click",
+      "target": "id=descripcion",
+      "targets": [
+        ["id=descripcion", "id"],
+        ["css=#descripcion", "css:finder"],
+        ["xpath=//input[@id='descripcion']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/div/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc81fdc6-51de-4fa2-a64e-7e6b0616ee3a",
+      "comment": "",
+      "command": "type",
+      "target": "id=descripcion",
+      "targets": [
+        ["id=descripcion", "id"],
+        ["css=#descripcion", "css:finder"],
+        ["xpath=//input[@id='descripcion']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/div/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "jabon liquido de loza"
+    }, {
+      "id": "6b127b4d-979b-41f1-97ed-21694e492db8",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_categoria",
+      "targets": [
+        ["id=id_categoria", "id"],
+        ["css=#id_categoria", "css:finder"],
+        ["xpath=//input[@id='id_categoria']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/div/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "450cdf90-9fd8-4e6a-98a1-03c630b1af36",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_categoria",
+      "targets": [
+        ["id=id_categoria", "id"],
+        ["css=#id_categoria", "css:finder"],
+        ["xpath=//input[@id='id_categoria']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/div/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "8987a476-c942-4582-924c-c871b61052a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_presentacion",
+      "targets": [
+        ["id=id_presentacion", "id"],
+        ["css=#id_presentacion", "css:finder"],
+        ["xpath=//input[@id='id_presentacion']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/div/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c003aad-b53f-4bfa-93b3-b0d91e262aad",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_presentacion",
+      "targets": [
+        ["id=id_presentacion", "id"],
+        ["css=#id_presentacion", "css:finder"],
+        ["xpath=//input[@id='id_presentacion']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/div/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "5f5e3dbd-112d-4494-82c7-fc0028ec3593",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-transparent",
+      "targets": [
+        ["css=.border-transparent", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Crear Producto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7c3bc012-2960-42d9-956f-a476d8ab1803",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["55c955f4-de1b-4dd6-b8e3-dd28ad64c0c8"]
+  }],
+  "urls": ["http://localhost:3000/", "http://localhost:3000/productos"],
+  "plugins": []
+}

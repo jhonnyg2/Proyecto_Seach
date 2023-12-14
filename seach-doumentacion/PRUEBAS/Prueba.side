@@ -1,0 +1,123 @@
+{
+  "id": "4670bec8-441a-4e14-bfe8-46d6f4b2b16d",
+  "version": "2.0",
+  "name": "pruebas",
+  "url": "http://localhost:3000/categorias",
+  "tests": [{
+    "id": "1db8356f-e79d-4d2e-9d51-7ce9ed7557e5",
+    "name": "prueba_automatizada_categoria",
+    "commands": [{
+      "id": "80d3bb08-a336-434a-a32d-db41d55922ca",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/categorias",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5737b90-e673-4370-94c6-418e540c315c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8a57ee3-4eeb-4d70-bd10-829e546d3034",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-gray-300",
+      "targets": [
+        ["css=.border-gray-300", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar nueva Categoría')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60a4e002-4646-4c41-a760-1e3870d515f9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.border-gray-300",
+      "targets": [
+        ["css=.border-gray-300", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar nueva Categoría')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26bcda30-9690-4ce7-b16b-a76ba29ed2a1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.border-gray-300",
+      "targets": [
+        ["css=.border-gray-300", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar nueva Categoría')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd53fee7-6cba-4804-8c13-6faca7805370",
+      "comment": "",
+      "command": "click",
+      "target": "id=tipo_categoria",
+      "targets": [
+        ["id=tipo_categoria", "id"],
+        ["css=#tipo_categoria", "css:finder"],
+        ["xpath=//input[@id='tipo_categoria']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0e0a93e-42ba-40a7-9f1e-842bd9cccfaa",
+      "comment": "",
+      "command": "type",
+      "target": "id=tipo_categoria",
+      "targets": [
+        ["id=tipo_categoria", "id"],
+        ["css=#tipo_categoria", "css:finder"],
+        ["xpath=//input[@id='tipo_categoria']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bano"
+    }, {
+      "id": "a4cc310d-0dbc-4bfe-9414-e87e841d0348",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-transparent",
+      "targets": [
+        ["css=.border-transparent", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Crear Categoría')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29341c34-7bb2-4811-9dc6-75e8e8c17960",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-red-200",
+      "targets": [
+        ["css=.bg-red-200", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div[2]/div[2]/div/div/form/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancelar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d03ac74b-aa2a-44fe-a304-4b6c730ea907",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1db8356f-e79d-4d2e-9d51-7ce9ed7557e5"]
+  }],
+  "urls": ["http://localhost:3000/", "http://localhost:3000/categorias"],
+  "plugins": []
+}
